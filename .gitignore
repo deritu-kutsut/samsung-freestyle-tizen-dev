@@ -1,0 +1,18 @@
+# Credenciales y certificados: NUNCA se versionan
+*.p12
+*.pfx
+*.pwd
+*.pem
+*.key
+*.cer
+profiles.xml
+profiles.xml.bak*
+SamsungCertificate/
+tizen-studio-data/
+
+# Paquetes y temporales
+*.wgt
+*.tpk
+*.log
+node_modules/
+.env
