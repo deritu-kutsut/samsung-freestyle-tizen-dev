@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1920, height=1080">
+  <title>{{NOMBRE}}</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>{{NOMBRE}}</h1>
+    <p class="sub">Creada con Tizen TV Dev Kit · usa las flechas del mando y OK</p>
+  </header>
+
+  <main>
+    <div class="rejilla" id="rejilla">
+      <button class="tarjeta" data-accion="reloj">Reloj</button>
+      <button class="tarjeta" data-accion="contador">Contador</button>
+      <button class="tarjeta" data-accion="color">Cambiar color</button>
+      <button class="tarjeta" data-accion="info">Información</button>
+    </div>
+    <section class="panel" id="panel">Elige una opción.</section>
+  </main>
+
+  <footer>Botón Atrás del mando: salir</footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

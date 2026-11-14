@@ -36,13 +36,19 @@ Decisiones clave:
 | Gestor de certificados | Certificate Manager de Tizen Studio | Único que ofrece el perfil Samsung (TV + DUID) |
 | Depuración | Inspector web remoto en Chromium | Incluido en Tizen para apps web |
 
+## Herramienta: Tizen TV Dev Kit
+
+Si prefieres no hacerlo a mano, [`devkit/`](devkit) automatiza todo el proceso con un asistente gráfico (y línea de comandos): comprueba requisitos, instala SDB verificado, conecta el dispositivo, importa el certificado Samsung y **compila, instala y depura** tus apps con un botón. Instrucciones en [docs/07-tizen-tv-dev-kit.md](docs/07-tizen-tv-dev-kit.md); el ZIP está en [Releases](../../releases).
+
+![Tizen TV Dev Kit](devkit/recursos/captura-1.png)
 ## Guía rápida
 
 1. [Activar el modo desarrollador](docs/02-modo-desarrollador.md) en el proyector.
 2. [Instalar SDB y conectar](docs/03-conexion-sdb.md); leer el **DUID**.
 3. [Crear el perfil de certificado Samsung](docs/04-certificado-samsung.md) (pantalla por pantalla).
 4. [Compilar, instalar y depurar](docs/05-compilar-instalar-depurar.md).
-5. Si algo falla: [solución de problemas](docs/06-solucion-de-problemas.md).
+5. [Automatizarlo todo con el Dev Kit](docs/07-tizen-tv-dev-kit.md).
+6. Si algo falla: [solución de problemas](docs/06-solucion-de-problemas.md).
 
 Visión general y prerrequisitos en [docs/01-arquitectura.md](docs/01-arquitectura.md).
 
